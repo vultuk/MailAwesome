@@ -1,0 +1,43 @@
+{
+    "name": "CaffeineAddicts/MailAwesome",
+    "description": ":package_description",
+    "keywords": [
+        "MailAwesome",
+        "Laravel"
+    ],
+    "homepage": "https://github.com/CaffeineAddicts/MailAwesome",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Skinner",
+            "email": "s.skinner@caffeineaddicts.co.uk"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "illuminate/mail": "^5.1",
+        "php" : ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CaffeineAddicts\\MailAwesome\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CaffeineAddicts\\MailAwesome\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
