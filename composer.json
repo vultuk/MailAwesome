@@ -1,6 +1,6 @@
 {
-    "name": "CaffeineAddicts/MailAwesome",
-    "description": ":package_description",
+    "name": "caffeine-addicts/mail-awesome",
+    "description": "A simple wrapper around laravels Mail function",
     "keywords": [
         "MailAwesome",
         "Laravel"
